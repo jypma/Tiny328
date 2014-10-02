@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by PcbNew date = Sun 28 Sep 2014 04:36:17 PM CEST
+
+BeginCmp
+TimeStamp = /5427C68F;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5427C700;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5426FBA5;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5425AD9F;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5426FD4F;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5426FDD7;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5426FCE1;
+Reference = C7;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /54257DBC;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /542580F9;
+Reference = JP1;
+ValeurCmp = ANALOG;
+IdModule  = SIL-8A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54258114;
+Reference = JP2;
+ValeurCmp = DIGITAL 1;
+IdModule  = SIL-8A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5425812F;
+Reference = JP3;
+ValeurCmp = DIGITAL 2;
+IdModule  = SIL-6A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5425814A;
+Reference = JP4;
+ValeurCmp = POWER;
+IdModule  = SIL-6A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5427C56C;
+Reference = JP5;
+ValeurCmp = nFFS;
+IdModule  = S_JUMPER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5425809B;
+Reference = JP6;
+ValeurCmp = FTDI;
+IdModule  = SIL-6A;
+EndCmp
+
+BeginCmp
+TimeStamp = /542580DE;
+Reference = JP7;
+ValeurCmp = PWR IN;
+IdModule  = SIL-3A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5426FA4D;
+Reference = JP8;
+ValeurCmp = ANT;
+IdModule  = SIL-1_RND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5427C5CB;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54257F70;
+Reference = U1;
+ValeurCmp = RFM12;
+IdModule  = RFM12;
+EndCmp
+
+BeginCmp
+TimeStamp = /54257EE0;
+Reference = U2;
+ValeurCmp = MCP1700T-3302E/TT;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5427C78B;
+Reference = Y1;
+ValeurCmp = 16MHz;
+IdModule  = YIC_ZTTCV;
+EndCmp
+
+EndListe
