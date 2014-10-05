@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sun 28 Sep 2014 04:36:17 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Fri 03 Oct 2014 09:11:13 PM CEST
 
 BeginCmp
 TimeStamp = /5427C68F;
@@ -101,8 +101,8 @@ EndCmp
 BeginCmp
 TimeStamp = /542580DE;
 Reference = JP7;
-ValeurCmp = PWR IN;
-IdModule  = SIL-3A;
+ValeurCmp = PWR1;
+IdModule  = SIL-2A;
 EndCmp
 
 BeginCmp
@@ -110,6 +110,13 @@ TimeStamp = /5426FA4D;
 Reference = JP8;
 ValeurCmp = ANT;
 IdModule  = SIL-1_RND;
+EndCmp
+
+BeginCmp
+TimeStamp = /542EF452;
+Reference = JP9;
+ValeurCmp = PWR2;
+IdModule  = SIL-2A;
 EndCmp
 
 BeginCmp
@@ -129,7 +136,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54257EE0;
 Reference = U2;
-ValeurCmp = MCP1700T-3302E/TT;
+ValeurCmp = MCP1702T-3302E/CB;
 IdModule  = SOT23;
 EndCmp
 

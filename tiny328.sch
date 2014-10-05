@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 sep 2014"
+Date "3 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -91,11 +91,11 @@ F 3 "~" H 5650 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_3 JP7
+L CONN_2 JP7
 U 1 1 542580DE
 P 5650 2650
 F 0 "JP7" V 5600 2650 50  0000 C CNN
-F 1 "PWR IN" V 5700 2650 40  0000 C CNN
+F 1 "PWR1" V 5700 2650 40  0000 C CNN
 F 2 "~" H 5650 2650 60  0000 C CNN
 F 3 "~" H 5650 2650 60  0000 C CNN
 	1    5650 2650
@@ -197,7 +197,7 @@ Wire Wire Line
 	5000 2650 5000 2850
 Wire Wire Line
 	5000 2650 5300 2650
-Text Label 5300 2750 2    60   ~ 0
+Text Label 5300 2950 2    60   ~ 0
 3V3
 Text Label 7400 1500 2    60   ~ 0
 A0
@@ -635,4 +635,22 @@ Wire Wire Line
 Connection ~ 1950 4450
 Text Label 4350 3000 0    60   ~ 0
 RESET
+$Comp
+L CONN_2 JP9
+U 1 1 542EF452
+P 5650 3050
+F 0 "JP9" V 5600 3050 40  0000 C CNN
+F 1 "PWR2" V 5700 3050 40  0000 C CNN
+F 2 "~" H 5650 3050 60  0000 C CNN
+F 3 "~" H 5650 3050 60  0000 C CNN
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2650 5300 2750
+Wire Wire Line
+	5300 3150 5050 3150
+Wire Wire Line
+	5050 3150 5050 2650
+Connection ~ 5050 2650
 $EndSCHEMATC
